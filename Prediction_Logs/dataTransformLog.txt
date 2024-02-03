@@ -1,0 +1,6 @@
+2024-02-03/12:39:18		 creditCardFraud_28011960_120210.csv: File Transformed successfully!!
+2024-02-03/12:39:18		 creditCardFraud_28011962_120212.csv: File Transformed successfully!!
+2024-02-03/13:45:47		 creditCardFraud_28011960_120210.csv: File Transformed successfully!!
+2024-02-03/13:45:47		 creditCardFraud_28011962_120212.csv: File Transformed successfully!!
+2024-02-03/14:13:14		 creditCardFraud_28011960_120210.csv: File Transformed successfully!!
+2024-02-03/14:13:14		 creditCardFraud_28011962_120212.csv: File Transformed successfully!!

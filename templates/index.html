@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<style>
-		body {background-color: #F7CAC9;}
+		body {background-color: hwb(0 100% 0%);}
 		h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;}
 		.title{color:#273582;}
 		#fetch{cursor:pointer;}
@@ -65,7 +65,16 @@
 			}
 		}
 		.res-container{}
-		.result-box{width:50%;margin-left:auto;margin-right:auto;height: 100px;padding:10px;overflow-y: auto;}
+		.result-box{	
+		width: 50%;
+		margin: 0 auto;
+		height: 210px; /* Increase height for better readability */
+		padding: 20px;
+		margin-top: 25px;
+		background-color: #fefefe;
+		opacity: 80%;
+		text-combine-upright: 30%;
+		overflow-y: auto;}
 		#loading {
 			position: fixed;
 			left: 0px;
@@ -134,7 +143,7 @@
 				</div>
 				<div class="res-container  col-md-6 col-xs-12">
 					<div class="result-box shadow rounded-lg">
-						<h6 class="title">Results</h6>
+						<h6 class="title">Predicted Result</h6>
 						<div class="json-result">
 
 						</div>
@@ -156,7 +165,7 @@
 						<li class="list-inline-item">&sdot;</li>
 						<li class="list-inline-item"><a href="https://ineuron.ai/privacy.html">Privacy Policy</a></li>
 					</ul>
-					<p class="text-muted small mb-2 mb-lg-0">&copy; iNeuron.ai 2022. Made by Asutosh</p>
+					<p class="text-muted small mb-2 mb-lg-0">&copy; iNeuron.ai 2023. Made by Neeraj kumar sharma</p>
 				</div>
 			</div>
 		</div>
